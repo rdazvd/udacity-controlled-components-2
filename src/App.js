@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AddItem from './AddItem';
+import ItemList from './ItemList';
+import DeleteItem from './DeleteItem';
 
 class App extends React.Component {
   state = {
-    value: '',
-    items: [],
+    items: []
   };
 
   handleChange = event => {
