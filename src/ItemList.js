@@ -6,7 +6,7 @@ const ItemList = ({ items }) => (
   <div>
     <p>Items</p>
     <ol>
-      { items.map(item, index) => <Item key={index} item={item} /> }
+      { items.map((item, index) => <Item key={index} item={item} />) }
     </ol>
   </div>
 );
